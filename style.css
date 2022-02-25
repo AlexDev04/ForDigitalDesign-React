@@ -1,0 +1,56 @@
+/* Main */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+p {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+    h1 {
+        font-size: 75px;
+    }
+
+    nav {
+        width: 100%;
+        background-color: darkgray;
+    }
+
+        #nav-links {
+            display: flex;
+            justify-content: stretch;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+
+            .nav-link {
+                flex: 1 1 auto;
+                display: inline;
+                text-align: center;
+                list-style-type: none;
+                margin: 0;
+                padding: 2%;
+                background-color: crimson;
+                /* border: solid; */
+            }
+
+            .nav-link:hover {
+                background-color: red;
+                cursor: pointer;
+                /* border: */
+            }
+
+
+/* Images */
