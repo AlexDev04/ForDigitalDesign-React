@@ -15,42 +15,73 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    width: 100%;
+    height: 90vh;
+    background-color: #222222;
 }
+    #header-img {
+        position: absolute;
+        width: 32vw;
+        height: 30vw;
+
+    }
 
     h1 {
-        font-size: 75px;
+        position: relative;
+        font-size: 100px;
+        color: white;
+        animation: shadow 2s infinite ease-in-out;
     }
 
-    nav {
-        width: 100%;
-        background-color: darkgray;
+nav {
+    display: inline-block;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #222222;
+    color: #222222
+}
+
+    #nav-links {
+        display: flex;
+        justify-content: stretch;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        background-color: #222222;
+        height: 100%;
     }
 
-        #nav-links {
+        .nav-link {
+            flex: 1 1 auto;
             display: flex;
-            justify-content: stretch;
+            justify-content: center;
             align-items: center;
-            padding: 0;
+            list-style-type: none;
             margin: 0;
+            height: 100%;
+            background-color: #00d8ff;
+            /* border: solid; */
         }
 
-            .nav-link {
-                flex: 1 1 auto;
-                display: inline;
-                text-align: center;
-                list-style-type: none;
-                margin: 0;
-                padding: 2%;
-                background-color: crimson;
-                /* border: solid; */
-            }
+        .nav-link:hover {
+            background-color: red;
+            cursor: pointer;
+            /* border: */
+        }
+        .nav-link:active {
 
-            .nav-link:hover {
-                background-color: red;
-                cursor: pointer;
-                /* border: */
-            }
+        }
 
+        #scroll-up-link {
+            background-color: #222222;
+        }
+
+        #scroll-up-button {
+            width: 32px;
+            height: 30px;
+        }
 
 /* Images */
