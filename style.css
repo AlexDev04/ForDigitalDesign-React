@@ -3,15 +3,20 @@ body {
     margin: 0px;
     padding: 0px;
     color: #222222;
+    font-family: Calibri;
+}
+
+main {
+    padding: 10px;
 }
 
 section {
-    font-size: 32px;
+    font-size: 16px;
 }
 
 
 p {
-    margin: 0px;
+    margin: 0;
 }
 
 header {
@@ -23,6 +28,7 @@ header {
     height: 90vh;
     background-color: #222222;
 }
+
     #header-img {
         position: absolute;
         width: 32vw;
@@ -75,6 +81,7 @@ nav {
             background-color: #3098bf;
             border: solid #0078a6 2px;
         }
+
         .nav-link:active {
 
         }
@@ -114,11 +121,38 @@ h2 {
     text-align: center;
 }
 
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+figure img {
+    width: 40%;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+figure div img {
+    width: 20%;
+    margin: 0 5%;
+}
+
+.figure-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Важные */
 li#scroll-up-link.active {
     background-color: #0078a6;
     border: solid #004e6c 2px;
 }
+
 li.nav-link.active {
     background-color: #0078a6;
     border: solid #004e6c 2px;
