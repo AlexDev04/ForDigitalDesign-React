@@ -5,6 +5,7 @@ body {
     padding: 0px;
     color: #222222;
     font-family: Calibri;
+    font-size: 20px;
 }
 
 main {
@@ -12,7 +13,7 @@ main {
 }
 
 section {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #plus-minus-div {
@@ -184,6 +185,52 @@ figure div img {
 
 article h3 {
     text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: #0078a6;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 60vw;
+    text-align: center;
+}
+
+iframe {
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer-div img {
+    width: 50px;
+    display: inline-block;
+
+}
+
+#icon-contacts {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+#contacts-header {
+    color: #222222;
+    margin: 10px;
+}
+
+#mail {
+    text-align: left;
 }
 
 /* Важные */
