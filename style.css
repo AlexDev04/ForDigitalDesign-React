@@ -164,7 +164,7 @@ figure {
 }
 
 figure img {
-    width: 40%;
+    width: 50vmax;
 }
 
 figcaption {
