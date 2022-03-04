@@ -130,8 +130,7 @@ nav {
         }
 
         #scroll-up-img {
-            width: 30px;
-            height: 30px;
+            width: 3vmax;
         }
 
             .nav-a {
@@ -161,10 +160,11 @@ figure {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-shrink: 1;
 }
 
 figure img {
-    width: 50vmax;
+    width: 40vmax;
 }
 
 figcaption {
