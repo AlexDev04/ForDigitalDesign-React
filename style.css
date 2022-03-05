@@ -14,6 +14,7 @@ main {
 
 section {
     font-size: 20px;
+    padding: 10px;
 }
 
 #plus-minus-div {
@@ -151,7 +152,8 @@ nav {
 h2 {
     color: #0078a6;
     text-align: center;
-    margin: 50px 0 30px;
+    margin: -15vmin 0 30px;
+    padding-top: 15vmin;
     font-size: 70px;
 }
 
@@ -235,6 +237,15 @@ iframe {
 #mail {
     text-align: left;
 }
+
+a {
+    color: #00d8ff
+}
+
+a:visited {
+    color: #3098bf
+}
+
 
 /* Важные */
 li#scroll-up-link.active {
